@@ -1,0 +1,22 @@
+{
+  "name": "bulkbrowser",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@types/jsbarcode": "^3.11.1",
+    "fuse.js": "^6.6.2",
+    "jsbarcode": "^3.11.5",
+    "motion": "^10.16.2",
+    "svelte-icons": "^2.1.0",
+    "svelte-icons-pack": "^2.1.0",
+    "@sveltejs/kit": "^1.20.4",
+    "firebase-frameworks": "^0.10.4",
+    "firebase-functions": "^4.3.0",
+    "firebase-admin": "^11.0.1"
+  },
+  "main": "server.js",
+  "engines": {
+    "node": "18"
+  }
+}
