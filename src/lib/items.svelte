@@ -1,6 +1,6 @@
 <script lang="ts">
   import Bottom from "./bottom.svelte";
-  import type { SearchItem } from "./data";
+  import { brandToColor, type SearchItem } from "./data";
   export let searchItems: SearchItem[];
   export let querry: string;
 
@@ -21,29 +21,33 @@
   }
 </script>
 
-<div class="grid gap-4 mt-10 w-3/4 mx-auto">
-  {#each searchItems as product}
+<div class="grid gap-4 mt-10 w-4/5 mx-auto">
+  {#each searchItems as product, i}
     <button
-      class="w-full bg-slate-700/80 p-2 py-2 rounded-lg text-slate-300 items-center text-xl font-bold hover:brightness-105 shadow-lg duration-100 "
+      class={`w-full dark:bg-slate-700/80 bg-gray-200/70 p-3 rounded-lg dark:text-slate-300 items-center text-xl font-bold shadow-sm duration-100 text-left font-mono ${
+        i == 0 && querry && "scale-110"
+      }`}
       on:click={() => {
         product.isOpen = expand(product);
       }}
     >
       <span class="w-full flex flex-row items-center">
-        <h3 class="whitespace-nowrap overflow-clip w-[60%]">
+        <h3 class="ml-2 whitespace-nowrap overflow-hidden w-[58%] truncate">
           {@html highlightMatch(querry, product.bin.name)}
         </h3>
 
         {#if product.bin.brand}
           <div
-            class="ml-auto bg-red-400/50 rounded-lg px-3 h-10 items-center flex justify-center font-mono tracking-widest hover:scale-95 duration-200"
+            class={`ml-auto text-white w-20 overflow-clip ${brandToColor(
+              product.bin.brand
+            )} rounded-lg px-3 h-10 items-center flex justify-center font-mono tracking-widest hover:scale-95 duration-200`}
           >
             {@html highlightMatch(querry, product.bin.brand)}
           </div>
         {/if}
 
         <div
-          class="ml-3 bg-green-700 rounded-lg px-3 h-10 items-center flex justify-center font-mono tracking-widest hover:scale-95 duration-200"
+          class="ml-3 bg-green-500 text-white dark:bg-green-700 rounded-lg px-3 h-10 items-center flex justify-center font-mono tracking-widest hover:scale-95 duration-200"
         >
           #{@html highlightMatch(querry, product.bin.num.toString())}
         </div>

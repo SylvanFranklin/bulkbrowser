@@ -52,3 +52,20 @@ export async function upcCITEMDBtestFunc() {
   const info = await fetch("https://www.upcitemdb.com/upc/41570030851");
   console.log(info.json());
 }
+
+export function brandToColor(brand: string) {
+  switch (brand) {
+    case "VCCO":
+      return "bg-amber-800";
+    case "EBCC":
+      return "bg-stone-800";
+    case "VATCC":
+      return "bg-orange-800";
+    case "CM":
+      return "bg-orange-300";
+    case "EQEX":
+      return "bg-red-500";
+    default:
+      return "bg-red-400";
+  }
+}

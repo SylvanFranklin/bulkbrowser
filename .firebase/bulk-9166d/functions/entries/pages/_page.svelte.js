@@ -1,4 +1,4 @@
-import { c as create_ssr_component, i as is_promise, n as noop, e as escape, v as validate_component, f as each } from "../../chunks/ssr.js";
+import { c as create_ssr_component, i as is_promise, n as noop, e as escape, v as validate_component, f as each, h as add_attribute } from "../../chunks/ssr.js";
 import "jsbarcode";
 import Fuse from "fuse.js";
 const IconBase_svelte_svelte_type_style_lang = "";
@@ -28,7 +28,7 @@ const Bottom = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let { product } = $$props;
   if ($$props.product === void 0 && $$bindings.product && product !== void 0)
     $$bindings.product(product);
-  return `<section class="mb-3 w-full rounded-lg opacity-5"></section> <section class="w-full flex" id="bottom-half"><aside class="w-full bg-gray-400/5 shadow-lg mr-4 rounded-lg text-sm font-normal p-4 overflow-scroll scrollbar-hidden text-left h-36">${function(__value) {
+  return `<section class="mb-3 w-full rounded-lg opacity-5"></section> <section class="w-full flex m-1" id="bottom-half"><aside class="w-full bg-gray-400/5 shadow-lg mr-4 rounded-lg text-sm font-normal p-4 overflow-scroll scrollbar-hidden text-left h-36">${function(__value) {
     if (is_promise(__value)) {
       __value.then(null, noop);
       return ``;
@@ -36,7 +36,7 @@ const Bottom = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     return function(facts) {
       return ` ${facts ? `INGREDIENTS: ${escape(facts.ingredients.toUpperCase())}` : `missing ingredients`} `;
     }(__value);
-  }(getNutrionFacts(product))}</aside> <button class="rounded-lg bg-white ml-auto shadow-lg w-[12rem] h-min hover:scale-95 hover:brightness-105 duration-100">${validate_component(Barcode, "Barcode").$$render($$result, { upc: product.upc }, {}, {})}</button></section>`;
+  }(getNutrionFacts(product))}</aside> <span class="rounded-lg bg-white ml-auto shadow-lg w-[12rem] h-min">${validate_component(Barcode, "Barcode").$$render($$result, { upc: product.upc }, {}, {})}</span></section>`;
 });
 function highlightMatch(querry2, name) {
   const regex = new RegExp(querry2, "gi");
@@ -50,8 +50,8 @@ const Items = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     $$bindings.searchItems(searchItems);
   if ($$props.querry === void 0 && $$bindings.querry && querry !== void 0)
     $$bindings.querry(querry);
-  return `<div class="grid gap-4 mt-10 w-3/4 mx-auto">${each(searchItems, (product) => {
-    return `<button class="w-full bg-slate-700/80 p-2 py-2 rounded-lg text-slate-300 items-center text-xl font-bold hover:brightness-105 shadow-lg duration-100 "><span class="w-full flex flex-row items-center"><h3 class="whitespace-nowrap overflow-clip w-[60%]"><!-- HTML_TAG_START -->${highlightMatch(querry, product.bin.name)}<!-- HTML_TAG_END --></h3> ${product.bin.brand ? `<div class="ml-auto bg-red-400/50 rounded-lg px-3 h-10 items-center flex justify-center font-mono tracking-widest hover:scale-95 duration-200"><!-- HTML_TAG_START -->${highlightMatch(querry, product.bin.brand)}<!-- HTML_TAG_END --> </div>` : ``} <div class="ml-3 bg-green-700 rounded-lg px-3 h-10 items-center flex justify-center font-mono tracking-widest hover:scale-95 duration-200">#<!-- HTML_TAG_START -->${highlightMatch(querry, product.bin.num.toString())}<!-- HTML_TAG_END --> </div></span> ${product.isOpen ? `${validate_component(Bottom, "Bottom").$$render($$result, { product: product.bin }, {}, {})}` : ``} </button>`;
+  return `<div class="grid gap-4 mt-10 w-4/5 mx-auto">${each(searchItems, (product, i) => {
+    return `<button${add_attribute("class", `w-full bg-slate-700/80 p-3 rounded-lg text-slate-300 items-center text-xl font-bold shadow-lg duration-100 text-left ${i == 0 && querry && "scale-110"}`, 0)}><span class="w-full flex flex-row items-center"><h3 class="ml-2 whitespace-nowrap overflow-hidden w-[58%] truncate"><!-- HTML_TAG_START -->${highlightMatch(querry, product.bin.name)}<!-- HTML_TAG_END --></h3> ${product.bin.brand ? `<div class="ml-auto bg-red-400/50 rounded-lg px-3 h-10 items-center flex justify-center font-mono tracking-widest hover:scale-95 duration-200"><!-- HTML_TAG_START -->${highlightMatch(querry, product.bin.brand)}<!-- HTML_TAG_END --> </div>` : ``} <div class="ml-3 bg-green-700 rounded-lg px-3 h-10 items-center flex justify-center font-mono tracking-widest hover:scale-95 duration-200">#<!-- HTML_TAG_START -->${highlightMatch(querry, product.bin.num.toString())}<!-- HTML_TAG_END --> </div></span> ${product.isOpen ? `${validate_component(Bottom, "Bottom").$$render($$result, { product: product.bin }, {}, {})}` : ``} </button>`;
   })}</div>`;
 });
 const app = "";
