@@ -13,7 +13,7 @@ The Bulk Browser is a fuzzy finder for bulk commodities City Market, my favority
 - [x] currently the bulk browser only supports UNFI items
 - [x] tags for organic and conventional
 - [x] categories, for example coffee, granola etc.
-- [] search history
+- [ ] search history
 - [ ] complete ingredients listings, along with allergens
 - [ ] daily label generator
 
