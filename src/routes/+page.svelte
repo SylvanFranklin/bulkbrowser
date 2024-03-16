@@ -1,8 +1,7 @@
 <script lang="ts">
+    import type { Bin } from "$lib/data";
     import Items from "$lib/items.svelte";
     import "../app.css";
-    import { bins, fuse } from "$lib/bins";
-    import { getSales, type Bin, type SearchItem } from "$lib/data";
 
     const closeAllBins = (bins: Bin[]) => {
         return bins.map((bin) => {
@@ -13,35 +12,19 @@
         });
     };
 
-    function calcSearchItems() {
-        if (query == "") {
-            searchItems = closeAllBins(bins);
-        } else {
-            searchItems = closeAllBins(
-                fuse.search(query).map((item) => item.item),
-            );
-        }
-    }
+    let query = "";
+    let bins: Array<Bin> = [];
 
-    let searchItems: SearchItem[] = closeAllBins(bins);
-    let query: string;
+    async function formChange(event: Event) {
+        const input = event.target as HTMLInputElement;
+        query = input.value;
+        const response = await fetch("http://localhost:8000/search/" + query);
 
-    function formChange(e: Event) {
-        if (e.target == null) {
-            return;
-        }
-
-        const target: EventTarget = e.target;
-
-        if (target instanceof HTMLInputElement) {
-            query = target.value;
-            calcSearchItems();
-        }
+        bins = (await response.json()) as Bin[];
+        console.log(bins);
     }
 
     let dark_mode = false;
-    // document.documentElement.classList.add("dark");
-
     function toggleDarkMode() {
         dark_mode = !dark_mode;
 
@@ -93,8 +76,6 @@
                 </span>
             {/if}
         </button>
-
-        <button class="p-3" on:click={() => getSales()}> tes </button>
     </nav>
 
     <header
@@ -134,7 +115,7 @@
                 <!-- </span> -->
             </form>
 
-            <Items searchItems={searchItems.slice(0, 5)} {query} />
+            <Items bins={bins.slice(0, 5)} {query} />
         </div>
     </div>
 </main>

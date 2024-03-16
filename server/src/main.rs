@@ -100,6 +100,11 @@ async fn bulk_search(query: &str) -> Json<Vec<Bin>> {
     return Json(results);
 }
 
+#[get("/search")]
+async fn fallback_bulk_search() -> Json<Vec<Bin>> {
+    return Json(vec![]);
+}
+
 #[get("/sale")]
 async fn sale() -> String {
     let done = match get_sales().await {
@@ -115,5 +120,5 @@ async fn sale() -> String {
 fn rocket() -> _ {
     rocket::build()
         .attach(CORS)
-        .mount("/", routes![index, sale, bulk_search])
+        .mount("/", routes![index, sale, bulk_search, fallback_bulk_search])
 }
