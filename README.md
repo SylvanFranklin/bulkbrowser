@@ -1,14 +1,12 @@
-
 ## Bulk Browser
 
-The Bulk Browser is a fuzzy finder for bulk commodities City Market, my favority local Coop grocery store. It can pattern match via UPC, Bin number, Name, and Brand. It is written in svelte mostly. 
+The Bulk Browser is a fuzzy finder for bulk commodities City Market, my favority local Coop grocery store. It can pattern match via UPC, Bin number, Name, and Brand. It is written in svelte mostly.
 
-
-*New listings coming soon*
+_New listings coming soon_
 
 ---
 
-#### TODO 
+#### TODO
 
 - [x] currently the bulk browser only supports UNFI items
 - [x] tags for organic and conventional
@@ -17,6 +15,4 @@ The Bulk Browser is a fuzzy finder for bulk commodities City Market, my favority
 - [ ] complete ingredients listings, along with allergens
 - [ ] daily label generator
 
---- 
-
-
+---

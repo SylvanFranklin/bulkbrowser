@@ -13,12 +13,12 @@
   });
 </script>
 
-<div class="flex rounded-lg w-full bg-white">
+<div class="flex w-full bg-white rounded-lg">
   {#if !failed}
     <svg id="upc-a" class="" />
   {:else}
     <div
-      class="h-38 text-black text-sm flex font-normal text-center items-center p-3 w-80"
+      class="flex items-center p-3 w-80 text-sm font-normal text-center text-black h-38"
 
     >invalid UPC</div>
   {/if}

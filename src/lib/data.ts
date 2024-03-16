@@ -31,7 +31,7 @@ interface Product {
 
 export async function getNutrionFacts(bin: Bin): Promise<NutritionFacts> {
   const raw = await fetch(
-    `https://world.openfoodfacts.org/api/v0/product/${bin.upc}.json`
+    `https://world.openfoodfacts.org/api/v0/product/${bin.upc}.json`,
   );
 
   if (raw.ok) {
@@ -68,4 +68,26 @@ export function brandToColor(brand: string) {
     default:
       return "bg-red-400";
   }
+}
+
+export async function getSales() {
+  // const response = await fetch("https://www.citymarket.coop/sales-and-specials");
+
+  const response = await fetch("http://localhost:8000/sale");
+  const text = await response.text();
+  console.log(text);
+
+  //
+  // // Parse the HTML string into a DOM document
+  // const parser = new DOMParser();
+  // const doc = parser.parseFromString(html, "text/html");
+  //
+  // // Find all <h2> elements containing the text "Bulk"
+  // const bulkHeaders = doc.querySelectorAll('h2:contains("Bulk")');
+  //
+  // // Iterate through each matching element and log its content
+  // bulkHeaders.forEach(header => {
+  //     console.log(header.textContent);
+  // });
+  //
 }

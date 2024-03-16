@@ -6,9 +6,9 @@
 </script>
 
 <section class="mb-3 w-full rounded-lg opacity-5" />
-<section class="w-full flex m-1" id="bottom-half">
+<section class="flex m-1 w-full" id="bottom-half">
   <aside
-    class="w-full bg-gray-400/5 shadow-lg mr-4 rounded-lg text-sm font-normal p-4 overflow-scroll scrollbar-hidden text-left h-36"
+    class="overflow-scroll p-4 mr-4 w-full h-36 text-sm font-normal text-left rounded-lg shadow-lg bg-gray-400/5 scrollbar-hidden"
   >
     {#await getNutrionFacts(product) then facts}
       {#if facts}
@@ -20,7 +20,7 @@
       NO NUTRITION DATABASE ENTRY FOR THIS UPC
     {/await}
   </aside>
-  <span class="rounded-lg bg-white ml-auto shadow-lg w-[12rem] h-min">
+  <span class="ml-auto bg-white rounded-lg shadow-lg w-[12rem] h-min">
     <Barcode upc={product.upc} />
   </span>
 </section>
