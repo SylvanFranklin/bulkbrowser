@@ -1015,5 +1015,1574 @@
     "num": 982,
     "upc": "-",
     "brand": "VATCC"
+  },
+  {
+    "name": "Pickling Spice, Spicy",
+    "num": 406,
+    "upc": "185",
+    "brand": "FRCO"
+  },
+  {
+    "name": "Pink Himalayan Salt",
+    "num": 149,
+    "upc": "4407",
+    "brand": "FRCO"
+  },
+  {
+    "name": "Psyllium Husk Powder, Organic",
+    "num": 902,
+    "upc": "2938",
+    "brand": "FRCO"
+  },
+  {
+    "name": "Pumpkin Pie Spice",
+    "num": 904,
+    "upc": "700",
+    "brand": "FRCO"
+  },
+  {
+    "name": "Red Chili Flakes Organic",
+    "num": 297,
+    "upc": "809",
+    "brand": "FRCO"
+  },
+  {
+    "name": "Rose Petals",
+    "num": 991,
+    "upc": "641",
+    "brand": "FRCO"
+  },
+  {
+    "name": "Rosehips, Organic",
+    "num": 328,
+    "upc": "2556",
+    "brand": "FRCO"
+  },
+  {
+    "name": "Rosemary, Whole Organic",
+    "num": 290,
+    "upc": "379",
+    "brand": "FRCO"
+  },
+  {
+    "name": "Sage Leaf, Rubbed",
+    "num": 911,
+    "upc": "236",
+    "brand": "FRCO"
+  },
+  {
+    "name": "Sea Salt, French (5lbs.)",
+    "num": 912,
+    "upc": "333",
+    "brand": "FRCO"
+  },
+  {
+    "name": "Sea Salt, Pink Himalayan, Fine",
+    "num": 135,
+    "upc": "4417",
+    "brand": "FRCO"
+  },
+  {
+    "name": "Sesame Seed, Black",
+    "num": 293,
+    "upc": "2961",
+    "brand": "FRCO"
+  },
+  {
+    "name": "Slippery Elm",
+    "num": 291,
+    "upc": "2820",
+    "brand": "FRCO"
+  },
+  {
+    "name": "Spearmint Leaf C/S Organic",
+    "num": 338,
+    "upc": "781",
+    "brand": "FRCO"
+  },
+  {
+    "name": "Sumac",
+    "num": 288,
+    "upc": "4920",
+    "brand": "FRCO"
+  },
+  {
+    "name": "Szechuan Peppers",
+    "num": 295,
+    "upc": "230",
+    "brand": "FRCO"
+  },
+  {
+    "name": "Tarragon Leaf Cut & Sifted",
+    "num": 934,
+    "upc": "199",
+    "brand": "FRCO"
+  },
+  {
+    "name": "Thyme Leaf, C/S Orgnaic",
+    "num": 922,
+    "upc": "378",
+    "brand": "FRCO"
+  },
+  {
+    "name": "Turmeric, Ground",
+    "num": 924,
+    "upc": "7015",
+    "brand": "FRCO"
+  },
+  {
+    "name": "Turmeric, Ground Organic",
+    "num": 398,
+    "upc": "202",
+    "brand": "FRCO"
+  },
+  {
+    "name": "Valerian Organic",
+    "num": 925,
+    "upc": "888",
+    "brand": "FRCO"
+  },
+  {
+    "name": "Vanilla Beans, Organic",
+    "num": 926,
+    "upc": "2344",
+    "brand": "FRCO"
+  },
+  {
+    "name": "Zaitar Spice Blend",
+    "num": 703,
+    "upc": "4921",
+    "brand": "FRCO"
+  },
+
+  {
+    "name": "Allspice, Ground, Organic",
+    "num": 801,
+    "upc": "-",
+    "brand": "FRCO"
+  },
+
+  {
+    "name": "Anise Star, Whole",
+    "num": 804,
+    "upc": "",
+    "brand": "FRCO"
+  },
+  {
+    "name": "Ascorbic Acid",
+    "num": 806,
+    "upc": "-",
+    "brand": "FRCO"
+  },
+
+  {
+    "name": "Baking Powder",
+    "num": 808,
+    "upc": "-",
+    "brand": "FRCO"
+  },
+
+  {
+    "name": "Basil, C/S",
+    "num": 810,
+    "upc": "-",
+    "brand": "FRCO"
+  },
+
+  {
+    "name": "Basil, C/S Organic",
+    "num": 811,
+    "upc": "-",
+    "brand": "FRCO"
+  },
+
+  {
+    "name": "Bay Leaves, Whole, Organic",
+    "num": 276,
+    "upc": "-",
+    "brand": "FRCO"
+  },
+
+  {
+    "name": "Beet Powder",
+    "num": 828,
+    "upc": "-",
+    "brand": "FRCO"
+  },
+
+  {
+    "name": "Broth no Chicken",
+    "num": 824,
+    "upc": "-",
+    "brand": "FRCO"
+  },
+
+  {
+    "name": "Broth Powder",
+    "num": 930,
+    "upc": "-",
+    "brand": "FRCO"
+  },
+
+  {
+    "name": "Burdock Root Organic",
+    "num": 376,
+    "upc": "-",
+    "brand": "FRCO"
+  },
+
+  {
+    "name": "Caraway Seeds, Whole",
+    "num": 815,
+    "upc": "-",
+    "brand": "FRCO"
+  },
+
+  {
+    "name": "Caraway Seeds, Whole, Organic",
+    "num": 277,
+    "upc": "-",
+    "brand": "FRCO"
+  },
+
+  {
+    "name": "Cardamom Ground, Organic",
+    "num": 279,
+    "upc": "-",
+    "brand": "FRCO"
+  },
+
+  {
+    "name": "Cardamon, Decorticated",
+    "num": 214,
+    "upc": "-",
+    "brand": "FRCO"
+  },
+
+  {
+    "name": "Cardamon, Ground",
+    "num": 817,
+    "upc": "-",
+    "brand": "FRCO"
+  },
+
+  {
+    "name": "Cardamon, OG",
+    "num": 279,
+    "upc": "-",
+    "brand": "FRCO"
+  },
+
+  {
+    "name": "Catnip, Organic",
+    "num": 145,
+    "upc": "-",
+    "brand": "FRCO"
+  },
+
+  {
+    "name": "Cayenne",
+    "num": 820,
+    "upc": "-",
+    "brand": "FRCO"
+  },
+
+  {
+    "name": "Cayenne Powder Mild",
+    "num": 945,
+    "upc": "-",
+    "brand": "FRCO"
+  },
+
+  {
+    "name": "Celery Salt",
+    "num": 886,
+    "upc": "-",
+    "brand": "FRCO"
+  },
+
+  {
+    "name": "Celery Seeds",
+    "num": 821,
+    "upc": "-",
+    "brand": "FRCO"
+  },
+
+  {
+    "name": "Chamomile Flowers Organic",
+    "num": 301,
+    "upc": "-",
+    "brand": "FRCO"
+  },
+
+  {
+    "name": "Chicory Root, Roasted Organic",
+    "num": 345,
+    "upc": "-",
+    "brand": "FRCO"
+  },
+
+  {
+    "name": "Chili Flakes, Red",
+    "num": 826,
+    "upc": "-",
+    "brand": "FRCO"
+  },
+
+  {
+    "name": "Chili Powder Blend",
+    "num": 394,
+    "upc": "-",
+    "brand": "FRCO"
+  },
+
+  {
+    "name": "Chili Powder Blend, Organic",
+    "num": 221,
+    "upc": "-",
+    "brand": "FRCO"
+  },
+
+  {
+    "name": "Chipotle Powder",
+    "num": 963,
+    "upc": "-",
+    "brand": "FRCO"
+  },
+
+  {
+    "name": "Chives Dehydrated",
+    "num": 829,
+    "upc": "-",
+    "brand": "FRCO"
+  },
+
+  {
+    "name": "Cinnamon Sticks 3in",
+    "num": 834,
+    "upc": "-",
+    "brand": "FRCO"
+  },
+
+  {
+    "name": "Cinnamon, Ground, Ceylon, Organic",
+    "num": 960,
+    "upc": "-",
+    "brand": "FRCO"
+  },
+
+  {
+    "name": "Cinnamon, Ground, Korintje, Organic",
+    "num": 832,
+    "upc": "-",
+    "brand": "FRCO"
+  },
+
+  {
+    "name": "Cinnamon, Ground, Vietnamese",
+    "num": 336,
+    "upc": "-",
+    "brand": "FRCO"
+  },
+
+  {
+    "name": "Citric Acid",
+    "num": 940,
+    "upc": "-",
+    "brand": "FRCO"
+  },
+
+  {
+    "name": "Cloves, Ground Organic",
+    "num": 898,
+    "upc": "-",
+    "brand": "FRCO"
+  },
+
+  {
+    "name": "Cloves, Whole Organic",
+    "num": 280,
+    "upc": "-",
+    "brand": "FRCO"
+  },
+
+  {
+    "name": "Coriander Seed, Ground Organic",
+    "num": 222,
+    "upc": "-",
+    "brand": "FRCO"
+  },
+
+  {
+    "name": "Coriander, Whole",
+    "num": 838,
+    "upc": "-",
+    "brand": "FRCO"
+  },
+
+  {
+    "name": "Coriander, Whole, Organic",
+    "num": 281,
+    "upc": "-",
+    "brand": "FRCO"
+  },
+
+  {
+    "name": "Cream of Tartar",
+    "num": 840,
+    "upc": "-",
+    "brand": "FRCO"
+  },
+
+  {
+    "name": "Cumin Seed, Whole, Orgainc",
+    "num": 224,
+    "upc": "-",
+    "brand": "FRCO"
+  },
+
+  {
+    "name": "Cumin, Ground Organic",
+    "num": 223,
+    "upc": "-",
+    "brand": "FRCO"
+  },
+
+  {
+    "name": "Curry Powder",
+    "num": 844,
+    "upc": "-",
+    "brand": "FRCO"
+  },
+
+  {
+    "name": "granola Blues",
+    "num": 643,
+    "upc": "",
+    "brand": "TNGC"
+  },
+
+  {
+    "name": "Go Nuts",
+    "num": 962,
+    "upc": "-",
+    "brand": "TNGC"
+  },
+  {
+    "name": "Nutty No Grainer w/Cran",
+    "num": 501,
+    "upc": "-",
+    "brand": "TNGC"
+  },
+  {
+    "name": "chocolate",
+    "num": 287,
+    "upc": "-",
+    "brand": "TNGC"
+  },
+
+  {
+    "name": "blueberry Happiness",
+    "num": 286,
+    "upc": "",
+    "brand": "SFEO"
+  },
+  {
+    "name": "Chocolate Cherry",
+    "num": 285,
+    "upc": "",
+    "brand": "SFEO"
+  },
+  {
+    "name": "Lemon coconut",
+    "num": 195,
+    "upc": "",
+    "brand": "SFEO"
+  },
+  {
+    "name": "Totally Oatally",
+    "num": 179,
+    "upc": "",
+    "brand": "SFEO"
+  },
+  {
+    "name": "Ginger and Molasses",
+    "num": 180,
+    "upc": "",
+    "brand": "SFEO"
+  },
+
+  {
+    "name": "Arrowroot Powder",
+    "num": 805,
+    "upc": "-",
+    "brand": "SWBI"
+  },
+
+  {
+    "name": "Asatoetida, Powder",
+    "num": 807,
+    "upc": "-",
+    "brand": "SWBI"
+  },
+
+  {
+    "name": "Organic Chlorella Powder",
+    "num": 163,
+    "upc": "-",
+    "brand": "SWBI"
+  },
+
+  {
+    "name": "Organic Dulce c/s",
+    "num": 847,
+    "upc": "-",
+    "brand": "SWBI"
+  },
+
+  {
+    "name": "Sea Salt Light Grey Fine",
+    "num": 938,
+    "upc": "-",
+    "brand": "SWBI"
+  },
+
+  {
+    "name": "Sea Salt Light Grey Coarse",
+    "num": 939,
+    "upc": "-",
+    "brand": "SWBI"
+  },
+
+  {
+    "name": "Maca Root Powder OG",
+    "num": 998,
+    "upc": "-",
+    "brand": "SWBI"
+  },
+
+  {
+    "name": "spirulina Powder Organic",
+    "num": 747,
+    "upc": "-",
+    "brand": "SWBI"
+  },
+
+  {
+    "name": "Kava Kava Root C/S",
+    "num": 350,
+    "upc": "-",
+    "brand": "SWBI"
+  },
+
+  {
+    "name": "Lemon Balm",
+    "num": 973,
+    "upc": "-",
+    "brand": "SWBI"
+  },
+
+  {
+    "name": "Schizandra Berries",
+    "num": 349,
+    "upc": "-",
+    "brand": "SWBI"
+  },
+
+  {
+    "name": "Olive Oil, Kalliston",
+    "num": 152,
+    "upc": "-",
+    "brand": "ECII"
+  },
+  {
+    "name": "Black Turtle Beans ",
+    "num": 367,
+    "upc": "-",
+    "brand": "MSMF"
+  },
+
+  {
+    "name": "Jacob's Cattle Beans",
+    "num": 354,
+    "upc": "-",
+    "brand": "MSMF"
+  },
+
+  {
+    "name": "Light Kidney Beans",
+    "num": 473,
+    "upc": "-",
+    "brand": "MSMF"
+  },
+
+  {
+    "name": "Pinto beans",
+    "num": 354,
+    "upc": "-",
+    "brand": "MSMF"
+  },
+
+  {
+    "name": "Whole Wheat Flour",
+    "num": 449,
+    "upc": "-",
+    "brand": "NGGC"
+  },
+
+  {
+    "name": "Whole Wheat Pastry Flour",
+    "num": 422,
+    "upc": "-",
+    "brand": "NGGC"
+  },
+
+  {
+    "name": "Al Purpose White Flour, Unbleached",
+    "num": 744,
+    "upc": "-",
+    "brand": "NGGC"
+  },
+
+  {
+    "name": "White Wheat Pastry Flour",
+    "num": 448,
+    "upc": "-",
+    "brand": "NGGC"
+  },
+
+  {
+    "name": "Campsite Veggies",
+    "num": 207,
+    "upc": "-",
+    "brand": "NBTC"
+  },
+
+  {
+    "name": "Wild Rice, Cultivated Minnesota",
+    "num": 445,
+    "upc": "-",
+    "brand": "NBTC"
+  },
+
+  {
+    "name": "Grade A Amber Maple Syrup,",
+    "num": 555,
+    "upc": "-",
+    "brand": "PUMA"
+  },
+
+  {
+    "name": "Grade A Dark Robust Maple Syrup,",
+    "num": 556,
+    "upc": "-",
+    "brand": "PUMA"
+  },
+
+  {
+    "name": "White Popcorn Kernels",
+    "num": 252,
+    "upc": "-",
+    "brand": "GFEN"
+  },
+
+  {
+    "name": "Chai Tra Que",
+    "num": 395,
+    "upc": "-",
+    "brand": "VTAT"
+  },
+
+  {
+    "name": "Darjeeling, OG",
+    "num": 309,
+    "upc": "-",
+    "brand": "VTAT"
+  },
+
+  {
+    "name": "Decaf Green, OG.",
+    "num": 908,
+    "upc": "-",
+    "brand": "VTAT"
+  },
+
+  {
+    "name": "Earl Grey",
+    "num": 311,
+    "upc": "-",
+    "brand": "VTAT"
+  },
+
+  {
+    "name": "Earl Grey Decaf",
+    "num": 208,
+    "upc": "-",
+    "brand": "VTAT"
+  },
+
+  {
+    "name": "Earl Grey, OG.",
+    "num": 261,
+    "upc": "-",
+    "brand": "VTAT"
+  },
+
+  {
+    "name": "Eng. Breakfast Decaf",
+    "num": 212,
+    "upc": "-",
+    "brand": "VTAT"
+  },
+
+  {
+    "name": "English Breakfast",
+    "num": 313,
+    "upc": "-",
+    "brand": "VTAT"
+  },
+
+  {
+    "name": "English Breakfast, OG.",
+    "num": 262,
+    "upc": "-",
+    "brand": "VTAT"
+  },
+
+  {
+    "name": "Genmaicha OG.",
+    "num": 315,
+    "upc": "-",
+    "brand": "VTAT"
+  },
+
+  {
+    "name": "Gunpowder Green Tea",
+    "num": 319,
+    "upc": "-",
+    "brand": "VTAT"
+  },
+
+  {
+    "name": "Irish Breakfast",
+    "num": 321,
+    "upc": "-",
+    "brand": "VTAT"
+  },
+
+  {
+    "name": "Irish Breakfast, OG.",
+    "num": 263,
+    "upc": "-",
+    "brand": "VTAT"
+  },
+
+  {
+    "name": "Kashmiri chai. 0d",
+    "num": 326,
+    "upc": "-",
+    "brand": "VTAT"
+  },
+
+  {
+    "name": "Lapsang Souchang",
+    "num": 325,
+    "upc": "-",
+    "brand": "VTAT"
+  },
+
+  {
+    "name": "Nilgiri Blue Mountain OG.",
+    "num": 310,
+    "upc": "-",
+    "brand": "VTAT"
+  },
+
+  {
+    "name": "Spring Green OG.",
+    "num": 304,
+    "upc": "-",
+    "brand": "VTAT"
+  },
+
+  {
+    "name": "Assam Chai OG.",
+    "num": 379,
+    "upc": "-",
+    "brand": "LPTI"
+  },
+
+  {
+    "name": "Chai Spice OG.",
+    "num": 378,
+    "upc": "-",
+    "brand": "LPTI"
+  },
+
+  {
+    "name": "Rooibos Chai OG.",
+    "num": 381,
+    "upc": "-",
+    "brand": "LPTI"
+  },
+
+  {
+    "name": "Assam OG",
+    "num": 673,
+    "upc": "-",
+    "brand": "SLTE"
+  },
+
+  {
+    "name": "Gunpowder OG",
+    "num": 550,
+    "upc": "-",
+    "brand": "SLTE"
+  },
+
+  {
+    "name": "Jasmine Pearls OG",
+    "num": 561,
+    "upc": "-",
+    "brand": "SLTE"
+  },
+
+  {
+    "name": "Tulsi OG",
+    "num": 791,
+    "upc": "-",
+    "brand": "SLTE"
+  },
+
+  {
+    "name": "Yerba Mate",
+    "num": 598,
+    "upc": "-",
+    "brand": "SLTE"
+  },
+
+  {
+    "name": "Polenta, Instant Fine",
+    "num": 671,
+    "upc": "5891",
+    "brand": "ASBU"
+  },
+  {
+    "name": "Nutri Yeast, Maxi Flake",
+    "num": 935,
+    "upc": "1261",
+    "brand": "ASBU"
+  },
+  {
+    "name": "Nutri Yeast, Mini Flake",
+    "num": 936,
+    "upc": "1262",
+    "brand": "ASBU"
+  },
+  {
+    "name": "Vital Wheat Gluten Flour",
+    "num": 139,
+    "upc": "1252",
+    "brand": "ASBU"
+  },
+  {
+    "name": "Beans, Cannelini",
+    "num": 668,
+    "upc": "1040",
+    "brand": "ASBU"
+  },
+  {
+    "name": "Red Bulgur",
+    "num": 402,
+    "upc": "2111",
+    "brand": "ASBU"
+  },
+  {
+    "name": "Rice, Long Grain White",
+    "num": 446,
+    "upc": "1051",
+    "brand": "ASBU"
+  },
+  {
+    "name": "Corn Grits",
+    "num": 403,
+    "upc": "1207",
+    "brand": "ASBU"
+  },
+  {
+    "name": "Sea Salt, Coarse Kosher",
+    "num": 618,
+    "upc": "2139",
+    "brand": "ASBU"
+  },
+  {
+    "name": "Barley Wheat Flakes, OG",
+    "num": 995,
+    "upc": "3210",
+    "brand": "ASBU"
+  },
+  {
+    "name": "Toasted Spelt Flakes, OG",
+    "num": 327,
+    "upc": "1150",
+    "brand": "ASBU"
+  },
+  {
+    "name": "Arame",
+    "num": 377,
+    "upc": "6333",
+    "brand": "ASBU"
+  },
+  {
+    "name": "Hijiki",
+    "num": 593,
+    "upc": "23856",
+    "brand": "ASBU"
+  },
+  {
+    "name": "Kombu",
+    "num": 594,
+    "upc": "3608",
+    "brand": "ASBU"
+  },
+  {
+    "name": "Tapioca Flour",
+    "num": 918,
+    "upc": "1166",
+    "brand": "ASBU"
+  },
+  {
+    "name": "Xanthan Gum",
+    "num": 932,
+    "upc": "2548",
+    "brand": "ASBU"
+  },
+  {
+    "name": "Wheat Flakes, OG",
+    "num": 997,
+    "upc": "3219",
+    "brand": "ASBU"
+  },
+  {
+    "name": "GRANOLA PALEO MPL PCAN ORG gf",
+    "num": 757,
+    "upc": "28292",
+    "brand": "ASBU"
+  },
+  {
+    "name": "GRANOLA PALEO COCO CRNCH ORG gf",
+    "num": 766,
+    "upc": "28291",
+    "brand": "ASBU"
+  },
+  {
+    "name": "GRANOLA ORIGINAL ORG gf",
+    "num": 769,
+    "upc": "28309",
+    "brand": "ASBU"
+  },
+  {
+    "name": "GRANOLA PALEO COCO GING ORG gf",
+    "num": 790,
+    "upc": "28293",
+    "brand": "ASBU"
+  },
+  {
+    "name": "GRANOLA DARK CHOCO PECAN ORG gf",
+    "num": 765,
+    "upc": "28306",
+    "brand": "ASBU"
+  },
+
+  {
+    "name": "Unsweetened Chocolate Chunks",
+    "num": 140,
+    "upc": "14145",
+    "brand": "HIFO"
+  },
+  {
+    "name": "Semisweet Chocolate Chips",
+    "num": 472,
+    "upc": "14010",
+    "brand": "HIFO"
+  },
+  {
+    "name": "Semi-Sweet Chocolate Chunks",
+    "num": 148,
+    "upc": "14891",
+    "brand": "HIFO"
+  },
+  {
+    "name": "Milk Chocolate Chips",
+    "num": 186,
+    "upc": "14047",
+    "brand": "HIFO"
+  },
+  {
+    "name": "Dark 70% Chocolate Chunks",
+    "num": 153,
+    "upc": "14091",
+    "brand": "HIFO"
+  },
+  {
+    "name": "White Chocolate Chunks",
+    "num": 468,
+    "upc": "14131",
+    "brand": "HIFO"
+  },
+  {
+    "name": "Poppy Seeds",
+    "num": 202,
+    "upc": "47109",
+    "brand": "HIFO"
+  },
+  {
+    "name": "Orzo, Ronzoni",
+    "num": 709,
+    "upc": "65065",
+    "brand": "HIFO"
+  },
+  {
+    "name": "Rotini",
+    "num": 714,
+    "upc": "64030",
+    "brand": "HIFO"
+  },
+  {
+    "name": "Mixed Spirals, Ronzoni",
+    "num": 719,
+    "upc": "64040",
+    "brand": "HIFO"
+  },
+  {
+    "name": "Organic Yellow Corn Meal",
+    "num": 692,
+    "upc": "18119",
+    "brand": "HIFO"
+  },
+  {
+    "name": "7-Grain Seed and Mix",
+    "num": 917,
+    "upc": "18330",
+    "brand": "HIFO"
+  },
+  {
+    "name": "Buckwheat Flour OG",
+    "num": 453,
+    "upc": "18414",
+    "brand": "HIFO"
+  },
+  {
+    "name": "semolina rlour Oa",
+    "num": 460,
+    "upc": "18417",
+    "brand": "HIFO"
+  },
+  {
+    "name": "oo Wnole wneat breac riour",
+    "num": 693,
+    "upc": "18119",
+    "brand": "HIFO"
+  },
+  {
+    "name": "Sugar, Domino",
+    "num": 478,
+    "upc": "28080",
+    "brand": "HIFO"
+  },
+  {
+    "name": "Special Bread Flour, King Arthur",
+    "num": 464,
+    "upc": "17280",
+    "brand": "HIFO"
+  },
+  {
+    "name": "All Purpose Flour, King Arthur",
+    "num": 651,
+    "upc": "17275",
+    "brand": "HIFO"
+  },
+  {
+    "name": "Brown Sugar, Golden Barrel",
+    "num": 477,
+    "upc": "28101",
+    "brand": "HIFO"
+  },
+  {
+    "name": "Cocoa Powder 23-24%",
+    "num": 249,
+    "upc": "73080",
+    "brand": "HIFO"
+  },
+  {
+    "name": "Pure Bourbon Vanilla Extract",
+    "num": 292,
+    "upc": "67214",
+    "brand": "HIFO"
+  },
+  {
+    "name": "Toasted Sesame Oil",
+    "num": 653,
+    "upc": "26442",
+    "brand": "HIFO"
+  },
+  {
+    "name": "Organic Canola Oil",
+    "num": 588,
+    "upc": "2010",
+    "brand": "HIFO"
+  },
+  {
+    "name": "Baking Powder",
+    "num": 808,
+    "upc": "73015",
+    "brand": "HIFO"
+  },
+  {
+    "name": "Carob Chips",
+    "num": 471,
+    "upc": "56664",
+    "brand": "HIFO"
+  },
+
+  {
+    "name": "Marich Jelly Beans",
+    "num": 789,
+    "upc": "-",
+    "brand": "ARIN"
+  },
+
+  {
+    "name": "Mike & Ikes",
+    "num": 111,
+    "upc": "-",
+    "brand": "ARIN"
+  },
+
+  {
+    "name": "Dark choc Cranberries",
+    "num": 113,
+    "upc": "-",
+    "brand": "ARIN"
+  },
+
+  {
+    "name": "Chocolate Sunflower Seeds",
+    "num": 122,
+    "upc": "-",
+    "brand": "ARIN"
+  },
+
+  {
+    "name": "Albanese 12 flavor gummy bears",
+    "num": 775,
+    "upc": "-",
+    "brand": "ARIN"
+  },
+
+  {
+    "name": "Albanese chocolate gummy bears",
+    "num": 777,
+    "upc": "-",
+    "brand": "ARIN"
+  },
+
+  {
+    "name": "Dark chocolate pretzels",
+    "num": 785,
+    "upc": "-",
+    "brand": "ARIN"
+  },
+
+  {
+    "name": "PB pretzels",
+    "num": 160,
+    "upc": "-",
+    "brand": "ARIN"
+  },
+
+  {
+    "name": "Blueberry yogurt pretzels",
+    "num": 774,
+    "upc": "-",
+    "brand": "ARIN"
+  },
+
+  {
+    "name": "6 flavor mini butterflies",
+    "num": 320,
+    "upc": "-",
+    "brand": "ARIN"
+  },
+
+  {
+    "name": "Swedish mini red fish",
+    "num": 155,
+    "upc": "-",
+    "brand": "ARIN"
+  },
+
+  {
+    "name": "Sour patch kids",
+    "num": 772,
+    "upc": "-",
+    "brand": "ARIN"
+  },
+
+  {
+    "name": "Red licorice",
+    "num": 778,
+    "upc": "-",
+    "brand": "ARIN"
+  },
+
+  {
+    "name": "Black licorice",
+    "num": 823,
+    "upc": "-",
+    "brand": "ARIN"
+  },
+
+  {
+    "name": "Jordan Almonds",
+    "num": 771,
+    "upc": "-",
+    "brand": "ARIN"
+  },
+
+  {
+    "name": "Sour neon crawlers",
+    "num": 776,
+    "upc": "-",
+    "brand": "ARIN"
+  },
+
+  {
+    "name": "Dark choc non pareils",
+    "num": 260,
+    "upc": "-",
+    "brand": "ARIN"
+  },
+
+  {
+    "name": "Whole Macadamia Nuts",
+    "num": 606,
+    "upc": "-",
+    "brand": "ARIN"
+  },
+
+  {
+    "name": "Honey Roasted Peanuts",
+    "num": 171,
+    "upc": "-",
+    "brand": "ARIN"
+  },
+
+  {
+    "name": "Redskin Peanuts",
+    "num": 253,
+    "upc": "-",
+    "brand": "ARIN"
+  },
+
+  {
+    "name": "Peanuts, Blistered",
+    "num": 622,
+    "upc": "-",
+    "brand": "ARIN"
+  },
+
+  {
+    "name": "Indian summer mix",
+    "num": 123,
+    "upc": "-",
+    "brand": "ARIN"
+  },
+
+  {
+    "name": "19th Hole Mix",
+    "num": 782,
+    "upc": "-",
+    "brand": "ARIN"
+  },
+
+  {
+    "name": "OG Dark Chocolate Espresso Beans",
+    "num": 575,
+    "upc": "-",
+    "brand": "TIFA"
+  },
+
+  {
+    "name": "OG Dark Chocolate Almonds",
+    "num": 541,
+    "upc": "-",
+    "brand": "TIFA"
+  },
+
+  {
+    "name": "Organic Raw Pepitas (Pumpkin Seeds)",
+    "num": 665,
+    "upc": "-",
+    "brand": "TIFA"
+  },
+
+  {
+    "name": "Organic Salted Pepitas",
+    "num": 243,
+    "upc": "-",
+    "brand": "TIFA"
+  },
+
+  {
+    "name": "Organic Pepitas, No Salt",
+    "num": 592,
+    "upc": "-",
+    "brand": "TIFA"
+  },
+
+  {
+    "name": "Organic Spicy Pepitas",
+    "num": 666,
+    "upc": "-",
+    "brand": "TIFA"
+  },
+
+  {
+    "name": "Organic Raw Sunflower Seeds",
+    "num": 631,
+    "upc": "-",
+    "brand": "TIFA"
+  },
+
+  {
+    "name": "Sunflower Seeds, salted",
+    "num": 761,
+    "upc": "-",
+    "brand": "TIFA"
+  },
+
+  {
+    "name": "Sunflower Seeds, NS",
+    "num": 762,
+    "upc": "-",
+    "brand": "TIFA"
+  },
+
+  {
+    "name": "Organic Pistachio Meats R/NS",
+    "num": 759,
+    "upc": "-",
+    "brand": "TIFA"
+  },
+
+  {
+    "name": "Organic Pistachio Meats R/S",
+    "num": 758,
+    "upc": "-",
+    "brand": "TIFA"
+  },
+
+  {
+    "name": "Organic Pistachios in Shell Salted",
+    "num": 613,
+    "upc": "-",
+    "brand": "TIFA"
+  },
+
+  {
+    "name": "Organic Roasted Salted Cashews",
+    "num": 232,
+    "upc": "-",
+    "brand": "TIFA"
+  },
+
+  {
+    "name": "Organic Roasted Cashews Unsalted",
+    "num": 233,
+    "upc": "-",
+    "brand": "TIFA"
+  },
+
+  {
+    "name": "Organic Roasted Salted Almonds",
+    "num": 755,
+    "upc": "-",
+    "brand": "TIFA"
+  },
+
+  {
+    "name": "Organic Almonds Roasted Unsalted",
+    "num": 241,
+    "upc": "-",
+    "brand": "TIFA"
+  },
+
+  {
+    "name": "Organic Whole Raw Cashews",
+    "num": 780,
+    "upc": "-",
+    "brand": "TIFA"
+  },
+
+  {
+    "name": "Organic Curry Cashews",
+    "num": 235,
+    "upc": "-",
+    "brand": "TIFA"
+  },
+
+  {
+    "name": "Organic Cashews Salt and Onion",
+    "num": 657,
+    "upc": "-",
+    "brand": "TIFA"
+  },
+
+  {
+    "name": "Organic Cashews Salt and Pepper",
+    "num": 656,
+    "upc": "-",
+    "brand": "TIFA"
+  },
+
+  {
+    "name": "Organic Raw Cashew Pieces",
+    "num": 450,
+    "upc": "-",
+    "brand": "TIFA"
+  },
+
+  {
+    "name": "Organic Tamari Roasted Almonds",
+    "num": 231,
+    "upc": "-",
+    "brand": "TIFA"
+  },
+
+  {
+    "name": "Organic Mixed Nuts Unsalted",
+    "num": 239,
+    "upc": "-",
+    "brand": "TIFA"
+  },
+
+  {
+    "name": "Organic Mixed Nuts Salted",
+    "num": 238,
+    "upc": "-",
+    "brand": "TIFA"
+  },
+
+  {
+    "name": "Organic Walnuts Roasted Salted",
+    "num": 763,
+    "upc": "-",
+    "brand": "TIFA"
+  },
+
+  {
+    "name": "Organic Walnuts Roasted Unsaled",
+    "num": 764,
+    "upc": "-",
+    "brand": "TIFA"
+  },
+
+  {
+    "name": "Organic Trail Mix",
+    "num": 601,
+    "upc": "-",
+    "brand": "TIFA"
+  },
+
+  {
+    "name": "Organic Pitted Prunes",
+    "num": 583,
+    "upc": "-",
+    "brand": "TIFA"
+  },
+
+  {
+    "name": "Organic Mango",
+    "num": 544,
+    "upc": "-",
+    "brand": "TIFA"
+  },
+
+  {
+    "name": "Organic Cranberries",
+    "num": 574,
+    "upc": "-",
+    "brand": "TIFA"
+  },
+
+  {
+    "name": "Organic Coconut Chips",
+    "num": 781,
+    "upc": "-",
+    "brand": "TIFA"
+  },
+
+  {
+    "name": "Organic Turkish Apricots",
+    "num": 117,
+    "upc": "-",
+    "brand": "TIFA"
+  },
+
+  {
+    "name": "Organic Black Mission Figs",
+    "num": 391,
+    "upc": "-",
+    "brand": "TIFA"
+  },
+
+  {
+    "name": "Organic White Turkish Figs",
+    "num": 389,
+    "upc": "-",
+    "brand": "TIFA"
+  },
+
+  {
+    "name": "Raw Cali Almonds (Bagged)",
+    "num": 729,
+    "upc": "-",
+    "brand": "TIFA"
+  },
+
+  {
+    "name": "Raw Mixed Nuts (Bagged)",
+    "num": 134,
+    "upc": "-",
+    "brand": "TIFA"
+  },
+
+  {
+    "name": "Pinenuts (Bagged)",
+    "num": 273,
+    "upc": "-",
+    "brand": "TIFA"
+  },
+
+  {
+    "name": "Raw Macadamia Nuts (Bagged)",
+    "num": 508,
+    "upc": "-",
+    "brand": "TIFA"
+  },
+
+  {
+    "name": "Brazil Nuts (Bagged)",
+    "num": 258,
+    "upc": "-",
+    "brand": "TIFA"
+  },
+
+  {
+    "name": "Raw Hazelnuts (Bagged)",
+    "num": 438,
+    "upc": "-",
+    "brand": "TIFA"
   }
 ]

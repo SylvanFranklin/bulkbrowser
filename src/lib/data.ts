@@ -61,6 +61,34 @@ export function brandToColor(brand: string) {
             return "bg-orange-300";
         case "EQEX":
             return "bg-red-500";
+        case "ARIN":
+            return "bg-red-800";
+        case "TIFA":
+            return "bg-green-700";
+        case "FRCO":
+            return "bg-white text-black";
+        case "HIFO":
+            return "bg-yellow-300";
+        case "TNGC":
+            return "bg-stone-300";
+        case "PUMA":
+            return "bg-orange-500";
+        case "ASBU":
+            return "bg-pink-300";
+        case "SWBI":
+            return "bg-teal-500";
+        case "VTAT":
+            return "bg-stone-700";
+        case "SFEO":
+            return "bg-fuchsia-900";
+        case "SLTE":
+            return "bg-emerald-200";
+        case "MSMF":
+            return "bg-teal-200";
+        case "GFEN":
+            return "bg-amber-300";
+        case "NGGC":
+            return "bg-lime-300";
         default:
             return "bg-red-400";
     }

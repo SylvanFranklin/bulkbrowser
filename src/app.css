@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 mark {
-  @apply shadow-2xl bg-blue-400 text-white rounded-lg  my-2;
+  @apply shadow-2xl bg-blue-400 text-white rounded-sm p-[.2rem] my-2;
 }
 body {
   -ms-overflow-style: none; /* Internet Explorer 10+ */

@@ -1,6 +1,6 @@
 <script lang="ts">
     import Bottom from "./bottom.svelte";
-    import { brandToColor, type Bin, type SearchItem } from "./data";
+    import { brandToColor, type Bin } from "./data";
     export let bins: Bin[];
     export let query: string;
 
@@ -12,35 +12,34 @@
         );
         return highlightedName;
     }
-    // function expand(item: SearchItem) {
-    //     const cop = !item.isOpen;
-    //     for (const prod of bins) {
-    //         prod.isOpen = false;
-    //     }
-    //     return cop;
-    // }
+
+    function smart_clip(title: string): string {
+        if (title.length > 22) {
+            return title.slice(0, 22) + "...";
+        }
+
+        return title;
+    }
 </script>
 
-<div class="grid gap-4 mx-auto mt-10 w-4/5">
+<div class="grid gap-4 mx-auto mt-10 w-4/5 justify-center">
     {#each bins as bin, i}
         <button
-            class={`w-full dark:bg-slate-700/80 bg-gray-200/70 p-3 rounded-lg dark:text-slate-300 items-center text-xl font-bold shadow-sm duration-100 text-left font-mono ${
+            class={`w-full dark:bg-slate-700/40 bg-gray-200/50 p-3 rounded-lg  items-center text-lg font-mono shadow-lg duration-100 text-left font-bold ${
                 i == 0 && query && "scale-110"
             }`}
             on:click={() => {
                 // product.isOpen = expand(product);
             }}
         >
-            <span class="flex flex-row items-center w-full">
-                <h3
-                    class="ml-2 whitespace-nowrap overflow-hidden w-[58%] truncate"
-                >
-                    {@html highlightMatch(query, bin.name)}
+            <span class="flex flex-row items-center w-full text-white">
+                <h3 class="pl-1 whitespace-nowrap overflow-clip pr-4 dark:text-slate-300 text-black">
+                    {@html highlightMatch(query, smart_clip(bin.name))}
                 </h3>
 
                 {#if bin.brand}
                     <div
-                        class={`ml-auto text-white w-20 overflow-clip ${brandToColor(
+                        class={`ml-auto  w-20 overflow-clip ${brandToColor(
                             bin.brand,
                         )} rounded-lg px-3 h-10 items-center flex justify-center font-mono tracking-widest hover:scale-95 duration-200`}
                     >

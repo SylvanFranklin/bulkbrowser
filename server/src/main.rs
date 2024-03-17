@@ -122,3 +122,9 @@ fn rocket() -> _ {
         .attach(CORS)
         .mount("/", routes![index, sale, bulk_search, fallback_bulk_search])
 }
+
+// mod db;
+// use db::utils::init;
+// fn main() {
+//     init();
+// }

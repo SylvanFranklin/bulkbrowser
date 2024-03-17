@@ -76,31 +76,30 @@
                 </span>
             {/if}
         </button>
+        <header
+            class="flex flex-col mx-auto font-mono text-5xl font-bold text-gray-600 select-none dark:text-white/20"
+        >
+            <div>
+                THE
+                <span
+                    class="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-200 to-orange-400 dark:from-yellow-400 dark:to-red-500"
+                >
+                    BULK
+                </span>
+                BROWSER
+            </div>
+            <!-- <div class="mt-1 ml-auto text-2xl font-bold dark:text-white/40"> -->
+            <!--     by Sylvan -->
+            <!-- </div> -->
+        </header>
     </nav>
-
-    <header
-        class="flex flex-col mx-auto mt-10 font-mono text-5xl font-bold text-gray-600 select-none dark:text-white/20"
-    >
-        <div>
-            THE
-            <span
-                class="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-200 to-orange-400 dark:from-yellow-400 dark:to-red-500"
-            >
-                BULK
-            </span>
-            BROWSER
-        </div>
-        <div class="mt-1 ml-auto text-2xl font-bold dark:text-white/40">
-            by Sylvan
-        </div>
-    </header>
 
     <div>
         <div
             class="flex flex-col items-center mx-auto mt-32 rounded-md sm:w-3/4 lg:w-2/5"
         >
             <form
-                class="flex flex-row justify-center items-center p-4 mt-4 w-full h-full text-black bg-none rounded-xl shadow-sm dark:text-white bg-gray-200/70 dark:bg-slate-900/30"
+                class="flex flex-row justify-center items-center p-4 mt-4 w-full h-full text-black bg-none rounded-xl shadow-lg dark:text-white bg-gray-200/40 dark:bg-slate-900/30"
                 on:input|preventDefault={formChange}
             >
                 <!-- svelte-ignore a11y-autofocus -->
