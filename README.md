@@ -8,11 +8,5 @@ _New listings coming soon_
 
 #### TODO
 
-- [x] currently the bulk browser only supports UNFI items
-- [x] tags for organic and conventional
-- [x] categories, for example coffee, granola etc.
-- [ ] search history
-- [ ] complete ingredients listings, along with allergens
-- [ ] daily label generator
 
 ---
