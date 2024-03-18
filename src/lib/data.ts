@@ -49,6 +49,30 @@ export async function upcCITEMDBtestFunc() {
     console.log(info.json());
 }
 
+
+export const Brands = [
+    "VCCO",
+    "EBCC",
+    "VATCC",
+    "CM",
+    "EQEX",
+    "ARIN",
+    "TIFA",
+    "FRCO",
+    "HIFO",
+    "TNGC",
+    "PUMA",
+    "ASBU",
+    "SWBI",
+    "VTAT",
+    "SFEO",
+    "SLTE",
+    "MSMF",
+    "GFEN",
+    "NGGC"
+];
+
+
 export function brandToColor(brand: string) {
     switch (brand) {
         case "VCCO":
@@ -92,6 +116,7 @@ export function brandToColor(brand: string) {
         default:
             return "bg-red-400";
     }
+
 }
 
 export async function getSales() {
