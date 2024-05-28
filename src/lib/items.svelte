@@ -22,7 +22,7 @@
     }
 </script>
 
-<div class="grid gap-4 mx-auto mt-10 w-4/5 justify-center">
+<div class="grid gap-4 justify-center mx-auto mt-10 w-4/5">
     {#each bins as bin, i}
         <button
             class={`w-full dark:bg-slate-700/40 bg-gray-200/50 p-3 rounded-lg  items-center text-lg font-mono shadow-lg duration-100 text-left font-bold ${
@@ -33,13 +33,13 @@
             }}
         >
             <span class="flex flex-row items-center w-full text-white">
-                <h3 class="pl-1 whitespace-nowrap overflow-clip pr-4 dark:text-slate-300 text-black">
+                <h3 class="pr-4 pl-1 text-black whitespace-nowrap overflow-clip dark:text-slate-300">
                     {@html highlightMatch(query, smart_clip(bin.name))}
                 </h3>
 
                 {#if bin.brand}
                     <div
-                        class={`ml-auto  w-20 overflow-clip ${brandToColor(
+                        class={`ml-auto w-20 overflow-clip ${brandToColor(
                             bin.brand,
                         )} rounded-lg px-3 h-10 items-center flex justify-center font-mono tracking-widest hover:scale-95 duration-200`}
                     >

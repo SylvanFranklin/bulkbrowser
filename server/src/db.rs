@@ -24,7 +24,7 @@ pub mod utils {
     pub async fn search(query: &str) -> Vec<Bin> {
         let client = Client::new(
             "http://localhost:7700",
-            Some("HbndFFsXSL8ZoBSNlkr-uSwbp-IQS4Wbotj5D3z0p5U"),
+            Some("M4ARqpr6E2b6tKtGTKmzaMyQDttR2FdlzRM8X8RZn3U"),
         );
 
         let result: SearchResults<Bin> = client
@@ -48,7 +48,7 @@ pub mod utils {
         block_on(async move {
             let client = Client::new(
                 "http://localhost:7700",
-                Some("HbndFFsXSL8ZoBSNlkr-uSwbp-IQS4Wbotj5D3z0p5U"),
+                Some("M4ARqpr6E2b6tKtGTKmzaMyQDttR2FdlzRM8X8RZn3U"),
             );
 
             // reading and parsing the file

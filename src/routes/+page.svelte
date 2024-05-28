@@ -114,26 +114,6 @@
                 <!--   <GoSearch /> -->
                 <!-- </span> -->
             </form>
-            <ol class="flex flex-row gap-3 my-4 w-full overflow-scroll hidebar">
-                {#each Brands as brand}
-                    <span class="text-white">
-                        <button
-                            on:click={() => {
-                                if (brandFilter == brand) {
-                                    brandFilter = "";
-                                } else {
-                                    brandFilter = brand;
-                                }
-                            }}
-                            class={`ml-auto shadow-md w-20 ${brandFilter == brand && "border-4 border-blue-400"} overflow-clip ${brandToColor(
-                                brand,
-                            )} rounded-lg px-3 h-10 items-center flex justify-center font-mono tracking-widest hover:scale-95 duration-200`}
-                        >
-                            {brand}
-                        </button>
-                    </span>
-                {/each}
-            </ol>
 
             <Items bins={bins.slice(0, 5)} {query} />
         </div>

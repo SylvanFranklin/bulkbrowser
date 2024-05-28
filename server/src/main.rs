@@ -1,6 +1,4 @@
-mod cors;
 mod db;
-use cors::CORS;
 use db::utils::Bin;
 #[macro_use]
 extern crate rocket;
@@ -116,6 +114,8 @@ async fn sale() -> String {
     "".to_string()
 }
 
+mod cors;
+use cors::CORS;
 #[launch]
 fn rocket() -> _ {
     rocket::build()
