@@ -24,3 +24,7 @@ Cargo.lock
 *.pdb
 server/data.ms
 server/meilisearch
+frontend/.svelte-kit
+frontend/.svelte-kit
+frontend/.svelte-kit/ambient.d.ts
+frontend/.svelte-kit/generated

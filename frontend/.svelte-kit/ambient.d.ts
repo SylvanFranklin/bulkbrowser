@@ -26,15 +26,12 @@
  * ```
  */
 declare module '$env/static/private' {
-	export const NVM_INC: string;
 	export const STARSHIP_SHELL: string;
 	export const TERM_PROGRAM: string;
 	export const NODE: string;
 	export const INIT_CWD: string;
-	export const NVM_CD_FLAGS: string;
 	export const TERM: string;
 	export const SHELL: string;
-	export const npm_config_metrics_registry: string;
 	export const TMPDIR: string;
 	export const npm_config_global_prefix: string;
 	export const TERM_PROGRAM_VERSION: string;
@@ -44,7 +41,6 @@ declare module '$env/static/private' {
 	export const npm_config_local_prefix: string;
 	export const LC_ALL: string;
 	export const USER: string;
-	export const NVM_DIR: string;
 	export const HELIX_RUNTIME: string;
 	export const NU_LOG_FORMAT: string;
 	export const COMMAND_MODE: string;
@@ -72,6 +68,7 @@ declare module '$env/static/private' {
 	export const npm_lifecycle_event: string;
 	export const EDITOR: string;
 	export const npm_package_name: string;
+	export const npm_config_npm_version: string;
 	export const XPC_FLAGS: string;
 	export const TMUX_PANE: string;
 	export const PROMPT_MULTILINE_INDICATOR: string;
@@ -87,8 +84,6 @@ declare module '$env/static/private' {
 	export const LOGNAME: string;
 	export const npm_lifecycle_script: string;
 	export const ALACRITTY_WINDOW_ID: string;
-	export const NVM_BIN: string;
-	export const BUN_INSTALL: string;
 	export const npm_config_user_agent: string;
 	export const LAST_EXIT_CODE: string;
 	export const SECURITYSESSIONID: string;
@@ -125,15 +120,12 @@ declare module '$env/static/public' {
  */
 declare module '$env/dynamic/private' {
 	export const env: {
-		NVM_INC: string;
 		STARSHIP_SHELL: string;
 		TERM_PROGRAM: string;
 		NODE: string;
 		INIT_CWD: string;
-		NVM_CD_FLAGS: string;
 		TERM: string;
 		SHELL: string;
-		npm_config_metrics_registry: string;
 		TMPDIR: string;
 		npm_config_global_prefix: string;
 		TERM_PROGRAM_VERSION: string;
@@ -143,7 +135,6 @@ declare module '$env/dynamic/private' {
 		npm_config_local_prefix: string;
 		LC_ALL: string;
 		USER: string;
-		NVM_DIR: string;
 		HELIX_RUNTIME: string;
 		NU_LOG_FORMAT: string;
 		COMMAND_MODE: string;
@@ -171,6 +162,7 @@ declare module '$env/dynamic/private' {
 		npm_lifecycle_event: string;
 		EDITOR: string;
 		npm_package_name: string;
+		npm_config_npm_version: string;
 		XPC_FLAGS: string;
 		TMUX_PANE: string;
 		PROMPT_MULTILINE_INDICATOR: string;
@@ -186,8 +178,6 @@ declare module '$env/dynamic/private' {
 		LOGNAME: string;
 		npm_lifecycle_script: string;
 		ALACRITTY_WINDOW_ID: string;
-		NVM_BIN: string;
-		BUN_INSTALL: string;
 		npm_config_user_agent: string;
 		LAST_EXIT_CODE: string;
 		SECURITYSESSIONID: string;
